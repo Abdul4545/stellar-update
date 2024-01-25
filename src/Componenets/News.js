@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import NewsItem from './NewsItem'
 import Spinner from './Spinner';
 
-// import PropTypes  from 'prop-types';
 
 export default class News extends Component {
   static defaultProps = {
@@ -11,10 +10,6 @@ export default class News extends Component {
     category: "general"
   }
 
-  // static PropTypes = {
-  //   country: PropTypes.string,
-  //   pageSize: PropTypes.number
-  // }
  
     constructor() {
         super();
